@@ -20,8 +20,8 @@ df['ID'] = names_ids.str[1].str[:3] # the [1] element is the abbreviation or ID 
 df = df.drop('Totals')
 df.head()
 
-Q1:
-The following codes returns the country that has won the most gold medals in summer games.
+#Q1:
+#The following codes returns the country that has won the most gold medals in summer games.
 def most_gold_summer():
     gold=df.copy()
     gold['country']=gold.index
